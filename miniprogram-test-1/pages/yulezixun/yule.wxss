@@ -1,0 +1,65 @@
+/* pages/yulezixun/yule.wxss */
+.scroller-container{
+  height: 1300rpx;
+}
+.top-text{
+  font-size: 24rpx;
+  color: #999;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+
+.divLine{
+ background: #D1D1D6;
+ width: 100%;
+ height: 2px;
+ margin: 20rpx;
+}
+
+.content-text{
+  margin: 20rpx;
+  font-size: 40rpx;
+  font-weight: 600rpx;
+  color: #333;
+}
+.image-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin: 20rpx;
+}
+
+.image-item{
+  width: 100%;
+  height: 600rpx;
+  padding-bottom: 20rpx;
+}
+.view-like{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.icon-like{
+  width: 128rpx;
+  height: 128rpx;
+  margin-top: 20rpx;
+}
+.type-text{
+  margin-left: 10rpx;
+  font-size: 30rpx;
+}
+.url-text{
+  margin-left: 10rpx;
+  font-size: 24rpx;
+}
+.type-author{
+  margin-left: 10rpx;
+  font-size: 30rpx;
+}
+.type-date{
+  margin-left: 10rpx;
+  font-size: 30rpx;
+}

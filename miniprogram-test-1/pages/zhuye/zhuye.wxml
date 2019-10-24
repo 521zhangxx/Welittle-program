@@ -1,0 +1,72 @@
+<!--pages/zhuye/zhuye.wxml-->
+<view class='haibao'>
+  <swiper indicator-dots='{{indicatorDots}}' autoplay='{{autoplay}}' interval='{{interval}}' duration='{{duration}}' style='height:120px;'>
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src='{{item}}' style='width:100%;height:120px;'></image>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class='hr'></view>
+
+<view class='zixun'>
+  <view class='fenlei'>
+    <image bindtap='yule' src='../Images/yule.png' style='width:25px;height:23px;'></image>
+   <view>娱乐资讯</view>
+  </view>
+  <view class='fenlei'>
+    <image bindtap='keji' src='../Images/keji.png' style='width:25px;height:23px;'></image>
+    <view>科技资讯</view>
+  </view>
+  <view class='fenlei'>
+    <image bindtap='shipin' src='../Images/shipin.png' style='width:25px;height:23px;'></image>
+    <view>时政资讯</view>
+  </view>
+</view>
+
+<view class='hr'></view>
+
+<view>
+    <view class='list'>
+    <view class='item' bindtap='seeDetail' id='0'>
+      <view><image src='https://ss0.baidu.com/94o3dSag_xI4khGko9WTAnF6hhy/image/h%3D300/sign=455610afdfc8a786a12a4c0e5708c9c7/5bafa40f4bfbfbedcb2d862a76f0f736afc31f6a.jpg' style='width:75px;height:58px;'></image></view>
+      <view class='desc'>
+        <view class='title'>爱心早餐</view>
+        <view class='count'>
+          <view>健康养生</view>
+          <view class='liulan'>20696浏览</view>
+          <view class='pinglun'>7评论</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class='list'>
+    <view class='item' bindtap='seeDetail' id='1'>
+      <view><image src='https://ss1.baidu.com/-4o3dSag_xI4khGko9WTAnF6hhy/image/h%3D300/sign=59567c51990a304e4d22a6fae1c9a7c3/ac4bd11373f08202fee6996a45fbfbedab641b6a.jpg' style='width:75px;height:58px;'></image></view>
+      <view class='desc'>
+        <view class='title'>每日咖啡</view>
+        <view class='count'>
+          <view>健康养生</view>
+          <view class='liulan'>20696浏览</view>
+          <view class='pinglun'>7评论</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class='list'>
+    <view class='item' bindtap='seeDetail' id='2'>
+      <view><image src='https://ss1.baidu.com/9vo3dSag_xI4khGko9WTAnF6hhy/image/h%3D300/sign=5bee647ee5c4b7452b94b116fffd1e78/58ee3d6d55fbb2fb12adba45414a20a44723dce7.jpg' style='width:75px;height:58px;'></image></view>
+      <view class='desc'>
+        <view class='title'>新鲜橘子</view>
+        <view class='count'>
+          <view class='type'>健康养生</view>
+          <view class='liulan'>20696浏览</view>
+          <view class='pinglun'>7评论</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,44 @@
+<scroll-view scroll-y class='content-info' style='height:100%'>
+<swiper class="content-info-slide" indicator-color="rgba(255,255,255,.5)" indicator-active-color='#fff' indicator-dots circular autoplay>
+  <swiper-item><image src='https://img.zcool.cn/community/01b9a358992eaaa8012060c880f2cd.jpg@1280w_1l_2o_100sh.jpg'/></swiper-item>
+  <swiper-item><image src='https://img.zcool.cn/community/01782b58992eb4a8012060c87af56c.jpg@1280w_1l_2o_100sh.jpg'/></swiper-item>
+  <swiper-item><image src='https://img.zcool.cn/community/0140e458992eb1a801219c7725291c.jpg@1280w_1l_2o_100sh.jpg'/></swiper-item>
+</swiper>
+<view class='content-info-portal'>
+  <view>
+    <image src='../image/keji.png'></image>
+    <text>私人FM</text>
+  </view>
+  <view>
+    <image src='../image/yule.png'></image>
+    <text>每日歌曲推荐</text>
+  </view>
+  <view>
+    <image src='../image/shipin.png'></image>
+    <text>云音乐新歌榜</text>
+  </view>
+</view>
+<view class='content-info-list' >
+  <view class='list-title'>推荐歌曲</view>
+  <view class='list-inner' >
+    <view class='list-item'>
+      <image src='../image/cover.jpg'/><view>紫罗兰</view>
+    </view>
+    <view class='list-item'>
+      <image src='../image/cover.jpg'/><view>五月之歌</view>
+    </view>
+    <view class='list-item'>
+      <image src='../image/cover.jpg'/><view>菩提树</view>
+    </view>
+    <view class='list-item'>
+      <image src='../image/cover.jpg'/><view>欢乐颂</view>
+    </view>
+    <view class='list-item'>
+      <image src='../image/cover.jpg'/><view>安魂曲</view>
+    </view>
+    <view class='list-item'>
+      <image src='../image/cover.jpg'/><view>摇篮曲</view>
+    </view>
+  </view>
+</view>
+</scroll-view>

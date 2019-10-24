@@ -1,0 +1,29 @@
+<!--pages/search/search.wxml-->
+<view class='container'>
+  <form bindsubmit='submit'>
+    <view>
+      <text>Name:</text>
+      <input type='text' id='name' name='names' bindtap='input1'></input>
+      <radio-group name='gender'>
+      
+        <label><radio value='0' checked/>man</label>
+        <label><radio value='1'/>woman</label>
+      
+      </radio-group>
+    </view>
+    <view>
+      <text>professial skill:</text>
+      <checkbox-group name='skills'>
+        <label><checkbox value='html' checked></checkbox>html</label>
+        <label><checkbox value='css' checked></checkbox>css</label>
+        <label><checkbox value='js'></checkbox>js</label>
+        <label><checkbox value='ps'></checkbox>ps</label>
+      </checkbox-group>
+    </view>
+    <view>
+      <text>your opinion:</text>
+      <input type='text' id='opinion' name='opinion' bindtap='input2'></input>
+    </view>
+    <button form-type='submit'>submit</button>
+  </form>
+</view>

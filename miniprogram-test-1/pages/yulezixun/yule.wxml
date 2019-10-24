@@ -1,0 +1,29 @@
+<!--pages/yulezixun/yule.wxml-->
+<view>
+  <view class='top-text'>
+    <text>web-view 组件是一个可以用来承载网页的容器，会自动铺满整个小程序页面。个人类型与海外类型的小程序暂不支持使用。</text>
+  </view>
+  <view class="divLine"></view>
+  <view>
+    <view class='content-text'>
+      <text>{{content}}</text>
+    </view>
+    <view class='image-container'>
+      <block wx:for="{{images}}" wx:for-item="item" wx:for-index="idx">
+        <view class='image-container' catchtap='onImageClick' data-imageUrl="{{item.imageUrl}}">
+          <image  wx:if="{{hadImage}}" class='image-item' src="{{item.imageUrl}}" mode='widthFix'></image>
+        </view>
+      </block>
+    </view>
+    <view>
+      <text class='type-text'>类型：{{postType}}</text>
+      <text class='type-author'>作者：{{who}}</text>
+    </view>
+    <view><text class='type-date'>发布时间：{{date}}</text></view>
+    <view><text class='url-text'>网页链接：{{url}}</text></view>
+    <view class='view-like' catchtap='onLikeClick'>
+      <image class='icon-like' src='../Images/detail/icon_like.png'></image>
+    </view>
+  </view>
+  <web-view src='https://movie.douban.com/'></web-view>
+</view>

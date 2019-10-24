@@ -1,0 +1,26 @@
+<!--pages/me/me.wxml-->
+<view class='buju' style=''>
+  <image class='beijing' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1557585847019&di=eb553cf244a3662771531189d6d8cbec&imgtype=0&src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2Ffda2af500ac8091f65eac35b45c4f033f9fd21562e1a1-QVzekU_fw658' style='width:100%;height:180px;'></image>
+</view>
+
+<view class='touxiang1'>
+  <image class='touxiang' src='https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1557577029&di=19793838028e2245735e75e0415dfb1e&src=http://pic.51yuansu.com/pic3/cover/01/69/80/595f67c3a6eb1_610.jpg'></image>
+  <view class='nameaccount'>
+    <view class='name'>521zhangxx</view>
+    <view class='account'>账号：17853800900</view>
+  </view>
+</view>
+<view class='content'>
+  <view class='neirong' bindtap='toastShow'>学生卡余额</view>
+  <toast hidden="{{status}}" duration="3000" bindchange="toastHide">
+        余额：53.3元
+  </toast>
+  <view class='hr'></view>
+  <view class='neirong' bindtap='lastAndFound'>丢卡挂失</view>
+  <view class='hr'></view>
+  <view class='neirong' bindtap='setting'>个人设置</view>
+  <view class='hr'></view>
+  <view class='neirong' bindtap='returnInfo'>意见反馈</view>
+</view>
+
+<button class='fanhui' bindtap='getback'>返回并注销</button>

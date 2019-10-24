@@ -1,0 +1,8 @@
+<!--pages/test/test.wxml-->
+<scroll-view scroll-x scroll-y style='height:200px' bindscroll='scroll'>
+  <view style='width:200%;height:400px;background:#ccc'>
+    <image style='width:200px;height:200px;background-color:#eee;' mode='scaleToFill' src='https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1571142853&amp;di=8766df8c5b3ded6bf8fe95ece0baed5e&amp;imgtype=jpg&amp;er=1&amp;src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fblog%2F201408%2F22%2F20140822203831_eSsr2.jpeg'></image>
+    <image style='width:200px;height:200px;background-color:#eee;' mode='top' src='https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1571142853&amp;di=8766df8c5b3ded6bf8fe95ece0baed5e&amp;imgtype=jpg&amp;er=1&amp;src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fblog%2F201408%2F22%2F20140822203831_eSsr2.jpeg'></image>
+  </view>
+</scroll-view>
+<slider bindchanging='sliderChanging' show-value></slider>

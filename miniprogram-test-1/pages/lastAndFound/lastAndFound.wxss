@@ -1,0 +1,5 @@
+/* pages/lastAndFound/lastAndFound.wxss */
+.see{
+  position: absolute;
+  right: 20px;
+}

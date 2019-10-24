@@ -1,0 +1,18 @@
+<!--pages/mypage/mypage.wxml-->
+<!--登陆账户-->
+<view class='content'>
+ <view class='account'>
+  <view class='title'>账号</view>
+  <view class='num'><input bindinput='accountInput' placeholder='用户民/邮箱/手机号' placeholder-style='color:#999999;'></input></view>
+ </view> 
+ <view class='hr'></view>
+ <view class='account'>
+  <view class='title'>密码</view>
+  <view class='num'><input bindblur='pwdBlur' placeholder='请输入密码' password placeholder-style='color:#999999;'></input></view>
+  <view class='see'><image src='../Images/see.png' style='width:42px;height:30px;'></image></view>
+ </view>
+ <view class='hr'></view>
+ <!--登陆按钮-->
+ <button class='btn' disabled='{{disabled}}' type='{{btnstate}}' bindtap='login'>登陆</button>
+ <text>{{text}}</text>
+</view>

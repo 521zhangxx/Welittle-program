@@ -1,0 +1,30 @@
+.item{
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+.desc{
+  margin-left: 20px;
+  line-height: 30px;
+}
+.title{
+  font-weight: bold;
+}
+.count{
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  color: #999999;
+}
+.type{
+  
+}
+.liulan{
+  position: absolute;
+  right: 70px;
+}
+.pinlun{
+  position: absolute;
+  right: 20px;
+}

@@ -1,0 +1,13 @@
+<view>
+  <text class='text'>Please enter the first number:</text>
+  <input type='number' class='text' id='id1' bindchange='number1'></input>
+</view>
+<view>
+  <text class='text'>Please enter second number:</text>
+  <input type='number' class='text' id='id2' bindchange='number2'></input>
+</view>
+<view>
+  <button class='btn' bindtap='Compare'>Compare</button>
+  <text>The result is : </text>
+  <text class='text'>{{result}}</text>
+</view>

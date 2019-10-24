@@ -1,0 +1,131 @@
+<view>
+    <view class='list'>
+    <view class='item' bindtap='seeDetail' id='0'>
+      <view><image src='https://static.leiphone.com/uploads/new/images/20190525/5ce93a6961dd2.jpeg?imageView2/2/w/740' style='width:75px;height:58px;'></image></view>
+      <view class='desc'>
+        <view class='title'>美国人为什么不待见人脸识别技术？</view>
+        <view class='count'>
+          <view>科技</view>
+          <view class='liulan'>5626浏览</view>
+          <view class='pinglun'>57评论</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class='list'>
+    <view class='item' bindtap='seeDetail' id='1'>
+      <view><image src='https://static.leiphone.com/uploads/new/images/20190528/5cecf719acef6.jpeg?imageView2/2/w/740' style='width:75px;height:58px;'></image></view>
+      <view class='desc'>
+        <view class='title'>解读阿里36亿入股千方科技背后</view>
+        <view class='count'>
+          <view>科技</view>
+          <view class='liulan'>897浏览</view>
+          <view class='pinglun'>33评论</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class='list'>
+    <view class='item' bindtap='seeDetail' id='2'>
+      <view><image src='https://static.leiphone.com/uploads/new/images/20190524/5ce77f9510d43.jpg?imageView2/2/w/740' style='width:75px;height:58px;'></image></view>
+      <view class='desc'>
+        <view class='title'>不止自动驾驶，未来智慧交通</view>
+        <view class='count'>
+          <view class='type'>科技</view>
+          <view class='liulan'>586浏览</view>
+          <view class='pinglun'>34评论</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view>
+    <view class='list'>
+    <view class='item' bindtap='seeDetail' id='0'>
+      <view><image src='https://static.leiphone.com/uploads/new/images/20190528/5cec9cef3ff7a.jpg?imageView2/2/w/740' style='width:75px;height:58px;'></image></view>
+      <view class='desc'>
+        <view class='title'>英特尔以数据为中心的竞争优势是什么？</view>
+        <view class='count'>
+          <view>科技</view>
+          <view class='liulan'>20696浏览</view>
+          <view class='pinglun'>7评论</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class='list'>
+    <view class='item' bindtap='seeDetail' id='1'>
+      <view><image src='https://static.leiphone.com/uploads/new/images/20190527/5cebce8dd7b87.jpg?imageView2/2/w/740' style='width:75px;height:58px;'></image></view>
+      <view class='desc'>
+        <view class='title'>如何探索医疗 AI 的突围之路？</view>
+        <view class='count'>
+          <view>科技</view>
+          <view class='liulan'>854浏览</view>
+          <view class='pinglun'>66评论</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class='list'>
+    <view class='item' bindtap='seeDetail' id='2'>
+      <view><image src='https://static.leiphone.com/uploads/new/images/20190528/5cece668783fa.jpg?imageView2/2/w/740' style='width:75px;height:58px;'></image></view>
+      <view class='desc'>
+        <view class='title'>Intel 10 nm 来了！第十代酷睿系列采用全新架构， AI 成最大亮点</view>
+        <view class='count'>
+          <view class='type'>科技</view>
+          <view class='liulan'>20665浏览</view>
+          <view class='pinglun'>1250评论</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view>
+    <view class='list'>
+    <view class='item' bindtap='seeDetail' id='0'>
+      <view><image src='https://static.leiphone.com/uploads/new/images/20190527/5cebc73f537e3.png?imageView2/2/w/740' style='width:75px;height:58px;'></image></view>
+      <view class='desc'>
+        <view class='title'>ARM 发布新一代 GPU 架构，还有一个机器学习处理器</view>
+        <view class='count'>
+          <view>科技</view>
+          <view class='liulan'>20611浏览</view>
+          <view class='pinglun'>541评论</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class='list'>
+    <view class='item' bindtap='seeDetail' id='1'>
+      <view><image src='https://static.leiphone.com/uploads/new/images/20190528/5cecf97fc9e14.jpg?imageView2/2/w/740' style='width:75px;height:58px;'></image></view>
+      <view class='desc'>
+        <view class='title'>解读 | Arm 机器学习处理器的独特之处</view>
+        <view class='count'>
+          <view>科技</view>
+          <view class='liulan'>8541浏览</view>
+          <view class='pinglun'>256评论</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class='list'>
+    <view class='item' bindtap='seeDetail' id='2'>
+      <view><image src='https://static.leiphone.com/uploads/new/article/pic/201905/5cec8003f3bea.jpeg?imageMogr2/thumbnail/!480x290r/gravity/Center/crop/480x290/quality/90' style='width:75px;height:58px;'></image></view>
+      <view class='desc'>
+        <view class='title'>任正非反对报复苹果</view>
+        <view class='count'>
+          <view class='type'>科技</view>
+          <view class='liulan'>87214浏览</view>
+          <view class='pinglun'>2315评论</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

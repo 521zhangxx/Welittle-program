@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/zhuye/zhuye",
+    "pages/mypage/mypage",
+    "pages/yulezixun/yule",
+    "pages/kejizixun/keji",
+    "pages/shipinzixun/shipin",
+    "pages/me/me",
+    "pages/lastAndFound/lastAndFound"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/zhuye/zhuye",
+        "text": "主页",
+        "iconPath": "pages/Images/cook1.png",
+        "selectedIconPath": "pages/Images/cook2.png"
+      },
+      {
+        "pagePath": "pages/mypage/mypage",
+        "text": "我",
+        "iconPath": "pages/Images/我的.png",
+        "selectedIconPath": "pages/Images/我的被.png"
+      }
+    ]
+  }
+}

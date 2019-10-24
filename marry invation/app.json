@@ -1,0 +1,57 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/picture/picture",
+    "pages/video/video",
+    "pages/map/map",
+    "pages/guest/guest"
+  ],
+  "requiredBackgroundModes": ["audio"],
+  "plugins":{
+    "tencentvideo":{
+      "version":"1.3.6",
+      "provider":"wxa75efa648b60994b"
+    }
+  },
+
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color":"#ccc",
+    "selectedColor":"#ff4c91",
+    "borderStyle":"white",
+    "backgroundColor":"#ffffff",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "iconPath":"pages/images/invite.png",
+        "selectedIconPath":"pages/images/invite.png",
+        "text":"邀请函"
+    },{
+        "pagePath": "pages/picture/picture",
+        "iconPath": "pages/images/marry.png",
+        "selectedIconPath": "pages/images/marry.png",
+        "text": "照片"
+    },{
+        "pagePath": "pages/video/video",
+        "iconPath": "pages/images/video.png",
+        "selectedIconPath": "pages/images/video.png",
+        "text": "美好时光"
+    },{
+        "pagePath": "pages/map/map",
+        "iconPath": "pages/images/map.png",
+        "selectedIconPath": "pages/images/map.png",
+        "text": "婚礼地点"
+    },{
+        "pagePath": "pages/guest/guest",
+        "iconPath": "pages/images/guest.png",
+        "selectedIconPath": "pages/images/guest.png",
+        "text": "宾客信息"
+    }]
+  }
+}

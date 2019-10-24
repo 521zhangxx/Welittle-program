@@ -1,0 +1,13 @@
+/* pages/test/test.wxss */
+.content-info-portal{
+  display: flex;
+  margin-bottom: 15px;
+}
+.content-info-portal > view{
+  flex: 1;
+  font-size: 11pt;
+  text-align: center;
+}
+.content-info-portal image{
+  
+}

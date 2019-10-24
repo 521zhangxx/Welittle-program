@@ -1,0 +1,14 @@
+/* pages/search/search.wxss */
+input{
+  width: 600rpx;
+  margin-top: 20rpx;
+  border-bottom: 2rpx solid #ccc;
+}
+button{
+  margin: 50rpx;
+}
+view{
+  margin-bottom: 30rpx;}
+label{
+  display: block;margin: 8rpx;
+}

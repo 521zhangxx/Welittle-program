@@ -1,0 +1,5 @@
+<video id='myVideo' src='{{src}}' danmu-list='{{danmuList}}' enable-danmu danmu-btn controls></video>
+<input bindblur='bingInputBlur'></input>
+<button bindtap='bingSendDanmu'>发送弹幕</button>
+<button bindtap='bindButtonTap'>获取视频</button>
+<txv-video vid="e0354z3cqjp" playerid="txv1"></txv-video>
